@@ -33,7 +33,7 @@ const App = () => {
           agregarColaborador={agregarColaborador}
         />
     </main>
-    <section>
+    <section className='alert'>
         {errorMessage && <Alert message={errorMessage} type="danger" />}
         {successMessage && <Alert message={successMessage} type="success" />}
     </section>
